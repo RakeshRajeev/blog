@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .customborder {
+        border-top: 1px solid rgb(93, 135, 155);
+      }
+      @media screen and (min-width: 1024px) and (max-width: 1024px) {
+        img {
+          margin-top: 70px;
+        }
+        .award {
+          margin-left: 1.5rem !important;
+          margin-right: 1.5rem !important;
+        }
+      }
+      @media screen and (min-width: 992px) {
+        .customborder {
+          border-top: 0px;
+          border-left: 1px solid rgba(15, 32, 80, 0.479);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-menu-div"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-menu-div">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#awards" class="nav-link">Achievements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- heroSection -->
+
+    <section class="bg-dark text-light text-center p-4">
+      <div class="container" id="home">
+        <div class="hero-intro">
+          <h1 class="mb-3">Kuppali Venkatappa Puttappa</h1>
+          <h6>The national poet of India</h6>
+        </div>
+      </div>
+    </section>
+
+    <!-- aboutSection -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row m-5">
+          <div class="col-12 col-lg-6 order-last order-lg-first">
+            <div class="row">
+              <div class="col-12">
+                <h4>The Gem of Karnataka</h4>
+                <p>
+                    Kuppali Venkatappa Puttappa is popularly known by his pen name Kuvempu, 
+                    was an Indian poet, playwright, novelist and critic. 
+                    He is widely regarded as the greatest Kannada poet of the 20th century.
+                    He was the first Kannada writer to be by decorated with the Jnanpith Award.
+                    Kuvempu studied at Mysuru University in the 1920s, taught there for nearly
+                    three decades and served as its vice-chancellor from 1956 to 1960.
+                    He initiated education in Kannada as the language medium. 
+                    For his contributions to Kannada Literature, 
+                    the Government of Karnataka decorated him with the honorific Rashtrakavi ("National Poet") in 1964 and
+                    Karnataka Ratna ("The Gem of Karnataka") in 1992. 
+                    He was conferred the Padma Vibhushan by the Government of India in 1988. 
+                    He penned the Karnataka State Anthem Jaya Bharata Jananiya Tanujate.
+                </p>
+              </div>
+              <div class="col-12">
+                <h4>Vishwa Manava</h4>
+                <p>
+                    Kuvempu strode the world of modern Kannada literature like a colossus,
+                    starting a whole new school of thought in poetic tradition and
+                    bringing unprecedented glory to Kannada in the linguistic and 
+                    literary sphere of India. His creativity took Kannada poetry to 
+                    a new peak and immortalised him in the hearts and minds of 
+                    generations of poets to come, and he brought a new sense of pride to 
+                    the Kannada-speaking masses at large. Kuvempu was highly prolific as 
+                    a poet and produced over 30 major collections of poems in a period spanning five decades.
+                    But his creative intellect also expressed itself brilliantly in 
+                    his various plays, novels and critiques. He also created significant children's literature and translations.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div
+            class="
+              col-12 col-lg-5
+              offset-md-2 offset-lg-1
+              mt-0 mt-lg-5
+              mb-5 mb-lg-0
+            "
+          >
+            <img
+              src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2019/12/29/Kuvempu-1577623692.jpg?itok=mn7h5X1U"
+              class="img-fluid"
+              alt="kuvempu Picture"
+            />
+          </div>
+        </div>
+
+        <!-- buttons -->
+        <div class="row mb-5">
+          <div class="col-8 col-md-12 offset-2 offset-md-0 text-center">
+            <a
+              href="https://en.wikipedia.org/wiki/Kuvempu"
+              target="_blank"
+              class="btn btn-secondary btn-md px-4 px-sm-5 mb-3 mb-md-0"
+            >
+              <i class="fa fa-wikipedia-w"></i> Learn More
+            </a>
+            <a
+              href="https://youtu.be/NBBYgki9Ndg"
+              target="_blank"
+              class="btn btn-danger btn-md px-5 mb-3 mb-md-0"
+            >
+              <i class="fa fa-youtube-play"></i> Videos
+            </a>
+            <a
+              href="https://www.amazon.in/Biographies-Autobiographies-Kuvempu-Diaries-True-Accounts/s?rh=n%3A1318065031%2Cp_27%3AKuvempu"
+              target="_blank"
+              class="btn btn-warning btn-md px-5 mb-3 mb-md-0 text-light"
+            >
+              <i class="fa fa-amazon"></i> Books
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- quoteSection -->
+    <section class="bg-dark text-light" id="quote">
+      <div class="container">
+        <p class="text-center p-4">
+          "ಮುಚ್ಚು ಮರೆ ಇಲ್ಲದೆಯೇ ನಿನ್ನ ಮುಂದೆಲ್ಲವನು ಬಿಚ್ಚಿಡುವೇ ಓ ಗುರುವೇ ಅಂತರಾತ್ಮ." - Kuvempu
+        </p>
+      </div>
+    </section>
+
+    <!-- awardsSection -->
+    <section id="awards" class="mt-5">
+      <div class="row">
+        <div class="col-3 col-sm-4 col-lg-5"><hr /></div>
+          <div class="col-6 col-sm-4 col-lg-2 text-center">
+            <i class="fa fa-star fa-2x"></i> <span class="h2">Achievements</span>
+           </div>
+        <div class="col-3 col-sm-4 col-lg-5"><hr /></div>
+      </div>
+
+      <div class="container">
+        <div class="container-fluid">
+          <div class="row my-xl-5 ml-1 ml-xl-0">
+            <div
+              class="
+                col-12 col-md-5 col-xl-3
+                mt-3
+                mx-md-4 mx-lg-0
+                mt-xl-0 pr-0
+                award
+              "
+            >
+              <div class="p-2 border
+                rounded">
+                <h6>Padma Bhushan</h6>
+                <h6 class="text-muted">1958</h6>
+                <p class="text-muted">
+                  One of the highest civilian honors of the Republic of India.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                col-12 col-md-5 col-xl-3
+                mt-3
+                mx-md-4 mx-lg-0
+                mt-xl-0 pr-0
+                award
+              "
+            >
+              <div class="p-2  border
+                rounded">
+                <h6>National Poet</h6>
+                <h6 class="text-muted">1964</h6>
+                <p class="text-muted">
+                    Conferred the title by the Government of India.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                col-12 col-md-5 col-xl-3
+                mt-3
+                mx-md-4 mx-lg-0
+                mt-xl-0 pr-0
+                award
+              "
+            >
+              <div class="p-2 border
+                rounded">
+                <h6> Sahitya Akademi Award</h6>
+                <h6 class="text-muted">1955</h6>
+                <p class="text-muted">
+                    literary honour in India for excellence in Indian writing.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                col-12 col-md-5 col-xl-3
+                mt-3
+                mx-md-4 mx-lg-0
+                mt-xl-0 pr-0
+                award
+              "
+            >
+              <div class="p-2 border
+                rounded">
+                <h6>Padma Vibhushan</h6>
+                <h6 class="text-muted">1988</h6>
+                <p class="text-muted">one of the highest civilian award from the Republic of India.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5 my-xl-0">
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-4 col-sm-5"><hr /></div>
+              <div class="col-4 col-sm-2 text-center">
+                <span class="h5">Plays</span>
+              </div>
+              <div class="col-4 col-sm-5"><hr /></div>
+            </div>
+
+            <ul class="text-secondary mt-5">
+              <li>Birugaali/ಬಿರುಗಾಳಿ (1930)</li>
+              <li>Maharaatri/ಮಹಾರಾತ್ರಿ (1931)</li>
+              <li>Smashana Kurukshethra/ಸ್ಮಶಾನ ಕುರುಕ್ಷೇತ್ರ (1931)</li>
+              <li>Jalagaara/ಜಲಗಾರ (1931)</li>
+              <li>Raktaakshi/ರಕ್ತಾಕ್ಷಿ (1932)</li>
+              <li>Shoodra Tapaswi/ಶೂದ್ರ ತಪಸ್ವಿ (1944)</li>
+              <li>Beralge koral/ಬೆರಳ್ಗೆ ಕೊರಳ್ (1947)</li>
+              <li>Yamana solu/ಯಮನ ಸೇೂಲು</li>
+              <li>Chandrahasa/ಚಂದ್ರಹಾಸ</li>
+              <li>Balidaana/ಬಲಿದಾನ</li>
+              <li>Kaaneena/ಕಾನೀನ (1974)</li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+            <div class="row">
+              <div class="col-2 col-sm-4 col-lg-3"><hr /></div>
+              <div class="col-8 col-sm-4 col-lg-6 text-center">
+                <span class="h5">Epic and Novels</span>
+              </div>
+              <div class="col-2 col-sm-4 col-lg-3"><hr /></div>
+            </div>
+
+            <ul class="text-secondary mt-5">
+              <li>Sri Ramayana Darshanam/ಶ್ರೀ ರಾಮಾಯಣ ದರ್ಶನಂ,1957</li>
+              <li>Chitrangada/ಚಿತ್ರಾಂಗದಾ</li>
+              <li>Kaanuru Heggadati/ಕಾನೂರು ಹೆಗ್ಗಡತಿ,1936</li>
+              <li>Malegalalli Madumagalu/ಮಲೆಗಳಲ್ಲಿ ಮದುಮಗಳು,1967</li>
+              <li>Malegaladalli Madumagalu </li>
+              <li>Swami Vivekananda,1932</li>
+              <li>Sri Ramakrishna Paramahamsa,1934</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footerSection -->
+
+    <footer class="bg-dark text-light">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 col-lg-5">
+            <p class="h5">About the Author</p>
+            <p>
+              Made by
+              <span class="text-secondary font-weight-bold">PHOENIX WARD </span
+              >for Freecodecamp tribute.
+            </p>
+          </div>
+          <div class="col-12 col-lg-2 pt-3 pt-lg-0 customborder">
+            <p class="h5">Techs Used</p>
+            <p class="text-secondary font-weight-bold">Sementic UI</p>
+          </div>
+
+          <div class="col-12 col-lg-5 pt-3 pt-lg-0 customborder">
+            <p class="h5">Content Disclaimer</p>
+            <p>
+              The content of this website is mostly copied from
+              <span class="text-primary">Wikipedia</span>,<span
+                class="text-primary"
+              >
+                BiographyBD</span
+              >. Original credits goes to the respective authors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

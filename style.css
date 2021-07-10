@@ -1,0 +1,19 @@
+  
+#home {
+    height: 400px;
+    position: relative;
+    background-image: url('https://live.staticflickr.com/6194/6108257986_af6d02e602_b.jpg');
+    background-size: 100% 100%;
+}
+
+#quote {
+    height: 90px;
+}
+
+.hero-intro {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
